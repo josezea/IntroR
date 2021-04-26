@@ -1,5 +1,5 @@
 # Introducción a R
-En esta sesión se abordan las siguientes temáticas
+En esta sesión se abordan las siguientes temáticas:
 * ¿Por qué R?
 * Instalación de R y Rstudio
 * Estructuras básicas
