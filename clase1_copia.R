@@ -42,3 +42,7 @@ hist(saber11_20201$PUNT_INGLES)
 summary(saber11_20201$PUNT_MATEMATICAS)
 summary(saber11_20201$PUNT_C_NATURALES)
 
+
+#muestra <- saber11_20201[sample(1:nrow(saber11_20201), 1000),]
+ggplot(data = saber11_20201, aes(x = PUNT_INGLES, color = COLE_NATURALEZA)) + geom_density()
+ggplot(data = saber11_20201, aes(x = PUNT_INGLES, color = COLE_NATURALEZA)) + geom_boxplot()
