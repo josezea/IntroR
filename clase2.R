@@ -100,3 +100,12 @@ consulta6 <- df_bgta2  %>%
   group_by(FAMI_ESTRATOVIVIENDA) %>% 
   summarise(promedio_PuntajeGlobal = mean(PUNT_GLOBAL), num_estud = n()) %>% 
   arrange(desc(promedio_PuntajeGlobal) )
+
+setwd("~/curso R distrital")
+library(readxl)
+datos <- read_excel("juguete.xlsx" )
+
+# Para leer datos copiando y pegando
+#datos2 <- read.delim("clipboard")
+library(RODBC)
+
